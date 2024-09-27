@@ -181,10 +181,10 @@ document.getElementById('twelve__btn').addEventListener('click', function() {
 document.getElementById('thirteen__btn').addEventListener('click', function() {
     let thirteenValue = document.getElementById('thirteen__value').value;
     if (!isNaN(thirteenValue) && thirteenValue.trim() !=='') {
-        alert("Its number");
+        alert("Bu raqam");
 
     }else{
-        alert("Its not number");
+        alert("Bu raqam emas");
    
     }
 });
